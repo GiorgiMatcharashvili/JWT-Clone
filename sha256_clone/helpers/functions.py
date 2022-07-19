@@ -1,4 +1,4 @@
-from operations import *
+from .operations import *
 
 
 def sigma0(bits):

@@ -31,6 +31,8 @@ def add(bits):
         result += int(each, 2)
     result_in_bin = bin(result % (2**32)).replace('0b', '')
 
-    return '0'*(32-len(result_in_bin))+result_in_bin
+    result_in_bin = '0'*(32-len(result_in_bin))+result_in_bin
+
+    return result_in_bin
 
 

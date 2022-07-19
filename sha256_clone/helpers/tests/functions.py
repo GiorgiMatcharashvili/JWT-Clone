@@ -1,4 +1,4 @@
-from sha_clone.helpers.functions import *
+from sha256_clone.helpers.functions import *
 import unittest
 
 
