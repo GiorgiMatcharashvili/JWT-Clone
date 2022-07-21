@@ -49,11 +49,3 @@ class HmacClone:
 
     def hexdigest(self):
         return self.digest().hex()
-
-m = 'hhkwehrkhwrhuiewfhihwiuehfewuoifiuwebfiebfiuh9pgr72378t562t5y0892u9 23'
-
-k = '213618726478916c16c4'
-
-h = HmacClone(k, m)
-
-print(h.hexdigest())
