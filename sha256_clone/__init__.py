@@ -1,1 +1,1 @@
-from main import generate_hash
+from .main import SHA256Clone
