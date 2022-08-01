@@ -28,10 +28,6 @@ def split_in_bits(bits):
             splited_bit += '0'
 
         splited_bits.append(splited_bit)
-
-    if len(splited_bits) < 4:
-        for _ in range(4 - len(splited_bits)):
-            splited_bits.append('=')
     return splited_bits
 
 
