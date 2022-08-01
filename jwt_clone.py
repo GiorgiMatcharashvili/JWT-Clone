@@ -30,10 +30,3 @@ class JwtClone:
 
         return self.signature == signature
 
-
-h = {"hi": "hey", "alg": "HS256"}
-p = {"sub": "1234567890", "name": "John Doe", "iat": 1516239022}
-
-t = 'eyJoaSI6ImhleSIsImFsZyI6IkhTMjU2In0.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.MTZjM2E0YzE3OWU1M2I4NWFlNGYwNmQ3MTkzZjY3YzJkNDI0YWZjODI1NmFkZGY2OTFmYWRhNzVlNWNjMWU1YQ'
-
-j = JwtClone(token=t)
